@@ -1,5 +1,7 @@
 backend:
   name: git-gateway
+  repo: JeanMoraes/bael-template
+  branch: master
   accept_roles: #optional - accepts all users if left out
     - admin
     - editor
