@@ -12,6 +12,7 @@
             :thumbnail="page.thumbnail"
           />
           <h1 class="xs-py3 main-title">{{page.title}}</h1>
+          <p>{{page.feature}}</p>
           <div class="xs-py3 post-content text-gray">
             <nuxt-content :document="page" />
           </div>
